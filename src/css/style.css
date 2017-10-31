@@ -12,3 +12,29 @@ Project type: App
 File created date: 31.10.2017
 Last modified:  
 */
+.clear {
+  text-decoration: none;
+  background: #333333;
+  color: #ffffff;
+  padding: 10px;
+}
+body {
+  font-family: Tahoma, Georgia, serif;
+  line-height: 1.6em;
+  background: #f4f4f4;
+}
+header,
+main,
+footer {
+  text-align: center;
+}
+main {
+  width: 400px;
+  margin: 50px auto;
+  background: #ffffa5;
+  overflow: hidden;
+  padding: 30px;
+}
+#clear {
+  margin: 20px;
+}
