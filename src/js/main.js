@@ -32,5 +32,12 @@ function clearNote(){
 	return false;
 }
 
+function clearDefaultText(){
+	if(document.getElementById('note').textContent === 'Please type a note'){
+		var defaultText = '';
+ 		document.getElementById('note').innerHTML = defaultText;	
+	}
+}
+
 // Calling function getNote
 getNote();

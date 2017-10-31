@@ -27,7 +27,7 @@ Last modified: 31.10.2017
   <h1>MyNote</h1>
 </header>
 <main>
-  <div id="note" contenteditable="true" onKeyUp="saveNote()"></div>
+  <div id="note" contenteditable="true" onmouseover="clearDefaultText()" onmouseout="getNote()" onKeyUp="saveNote()"></div>
 </main>
 <footer>
   <div class="clear-div"><a href="" class="clear" onClick="clearNote()">Clear Note</a></div>
