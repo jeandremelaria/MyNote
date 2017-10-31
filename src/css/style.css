@@ -10,13 +10,16 @@ IDE tool: Dreamweaver
 Database:  -
 Project type: App
 File created date: 31.10.2017
-Last modified:  
+Last modified: 31.10.2017 
 */
 .clear {
   text-decoration: none;
   background: #333333;
   color: #ffffff;
   padding: 10px;
+}
+.clear-div {
+  margin: 20px;
 }
 body {
   font-family: Tahoma, Georgia, serif;
@@ -31,10 +34,7 @@ footer {
 main {
   width: 400px;
   margin: 50px auto;
-  background: #ffffa5;
+  background: #ff9a54;
   overflow: hidden;
   padding: 30px;
-}
-#clear {
-  margin: 20px;
 }

@@ -8,7 +8,7 @@ IDE tool: Dreamweaver
 Database:  -
 Project type: App
 File created date: 31.10.2017
-Last modified: 
+Last modified: 31.10.2017
 -->
 <html>
 <head>
@@ -27,10 +27,10 @@ Last modified:
   <h1>MyNote</h1>
 </header>
 <main>
-  <div id="note" contenteditable="true"></div>
+  <div id="note" contenteditable="true" onKeyUp="saveNote()"></div>
 </main>
 <footer>
-  <div id="clear"><a href="" class="clear">Clear Note</a></div>
+  <div class="clear-div"><a href="" class="clear" onClick="clearNote()">Clear Note</a></div>
   MyNote &copy;2017</footer>
 <script src="js/main.js"></script>
 </body>
